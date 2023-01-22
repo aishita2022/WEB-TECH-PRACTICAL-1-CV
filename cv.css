@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+a {
+    text-decoration:underline;
+    color: #000;
+}
+
+#page {
+    min-height: 200px;
+    width: 60%;
+    min-width: 600px;
+    background-color:whitesmoke;
+    margin: 50px auto;
+    padding: 30px;
+    color:crimson;
+}
+.photo {
+    width: 10%;
+    min-width: 170px;
+    float: right;
+    margin-right: 100px;
+}
+
+.contactinfo {
+    text-decoration: underline;
+    width: 70.9%;
+    display: inline-block;
+}
+
+.Name {
+    margin-bottom: -5px;
+}
+
+.title {
+    display: inline-block;
+}
+
+.details {
+    text-decoration: underline;
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+/* Academic Profile */
+
+#education h3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 100px;
+    margin: 30px 0 10px;
+}
+
+#education table td {
+    
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+
+/* Information */
+
+#info h3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#info table td {
+    
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+/* Research Papers */
+#research h3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#research p {
+   
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+}
+
+/* Coding Skills*/
+
+#skills h3, #projects h3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#skills table td, #projects table td {
+   
+    padding: 8px;
+    font-size: 15px;
+    color: #000;
+}
+
+/* Projects*/
+
+#projects table tr td {
+    text-decoration: underline;
+    width: 300px;
+}
